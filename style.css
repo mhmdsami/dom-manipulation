@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+.logo {
+    font-size: 2em;
+    padding: 0.7em;
+    font-weight: bold;
+}
+
+.task {
+    padding-left: 1.4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-element {
+    display: flex;
+    gap: 0.3em;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
